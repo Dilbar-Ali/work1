@@ -70,3 +70,45 @@ nav button{
 .nav_item a:hover{
 color: red;
 }
+
+.section1{
+    height: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    gap: 4rem;
+    color: white;
+    font-family: sans-serif;
+}
+th{
+
+    color: black;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table{
+    border: 1px solid black;
+    padding: 80px;
+    border-radius: 90px;
+    border-collapse: collapse;
+    /* margin: 20% 0px 0px 20%; */
+    background-color: gainsboro;
+}
+th,tr,td {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 90px;
+}
+.sec{
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
